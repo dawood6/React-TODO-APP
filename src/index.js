@@ -1,17 +1,8 @@
 import React, { Component } from 'react';
-import App from './Todo';
+import Todo from './Todo';
 import { render } from 'react-dom'
-  
 
-class Todo extends Component {
-  render() {
-    return(
-      <App />
-    )
-  }
-}
-
-
+// Use correct naming conventions when importing
 render(<Todo />, document.getElementById('root'))
 
 
