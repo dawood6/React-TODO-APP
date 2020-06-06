@@ -50,7 +50,7 @@ class App extends Component {
               <li>
                 {item}{" "}
                 <button id="button2" onClick={() => this.delete(item)}>
-                  <span >❌</span>
+                  <span role='img'>❌</span>
                 </button>{" "}
               </li>
             ))}
